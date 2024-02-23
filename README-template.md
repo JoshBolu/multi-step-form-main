@@ -39,31 +39,31 @@ Users should be able to:
 
 ### Screenshot
 DESKTOP VIEW:
-![](assets\screenshot\desktop\desktop-view2.png)
-![](assets\screenshot\desktop\desktop-view3.png)
-![](assets\screenshot\desktop\desktop-view4.png)
-![](assets\screenshot\desktop\desktop-view5.png)
-![](assets\screenshot\desktop\desktop-view6.png)
-![](assets\screenshot\desktop\desktop-view7.png)
-![](assets\screenshot\desktop\desktop-view8.png)
-![](assets\screenshot\desktop\desktop-view9.png)
-![](assets\screenshot\desktop\desktop-view10.png)
+![desktop view 1](assets\screenshot\desktop\desktop-view2.png)
+![desktop view 2](assets\screenshot\desktop\desktop-view3.png)
+![desktop view 3](assets\screenshot\desktop\desktop-view4.png)
+![desktop view 4](assets\screenshot\desktop\desktop-view5.png)
+![desktop view 5](assets\screenshot\desktop\desktop-view6.png)
+![desktop view 6](assets\screenshot\desktop\desktop-view7.png)
+![desktop view 7](assets\screenshot\desktop\desktop-view8.png)
+![desktop view 8](assets\screenshot\desktop\desktop-view9.png)
+![desktop view 9](assets\screenshot\desktop\desktop-view10.png)
 MOBILE VIEW:
-![](assets\screenshot\mobile\mobile-view1.png)
-![](assets\screenshot\mobile\mobile-view2.png)
-![](assets\screenshot\mobile\mobile-view3.png)
-![](assets\screenshot\mobile\mobile-view4.png)
-![](assets\screenshot\mobile\mobile-view5.png)
-![](assets\screenshot\mobile\mobile-view6.png)
-![](assets\screenshot\mobile\mobile-view7.png)
-![](assets\screenshot\mobile\mobile-view8.png)
-![](assets\screenshot\mobile\mobile-view9.png)
+![mobile view 1](assets\screenshot\mobile\mobile-view1.png)
+![mobile view 2](assets\screenshot\mobile\mobile-view2.png)
+![mobile view 3](assets\screenshot\mobile\mobile-view3.png)
+![mobile view 4](assets\screenshot\mobile\mobile-view4.png)
+![mobile view 5](assets\screenshot\mobile\mobile-view5.png)
+![mobile view 6](assets\screenshot\mobile\mobile-view6.png)
+![mobile view 7](assets\screenshot\mobile\mobile-view7.png)
+![mobile view 8](assets\screenshot\mobile\mobile-view8.png)
+![mobile view 9](assets\screenshot\mobile\mobile-view9.png)
 
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ/solutions)
+- Live Site URL: (https://joshbolu.github.io/multi-step-form-main/)
 
 ## My process
 

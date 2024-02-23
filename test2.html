@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .cont{
+            width: 100%;
+            height: 200px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .themain{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            border: 1px solid green;
+        }
+        input:checked[type="radio"] + .themain{
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="radio1">
+        <div class="cont">
+            <input type="radio" name="plan" id="radio1">
+            <div class="themain">
+                <div class="image-cont">
+                    <img src="icon-arcade.svg" alt="arcade logo">
+                  </div>                
+
+                  <div class="description-price-cont">
+                    <h4>Arcade</h4>
+                    <p>$9/mo</p>
+                    <p style="color:hsl(213, 96%, 18%); font-weight: 500; display: none;">2 months free</p>
+                  </div>
+            </div>
+        </div>
+    </label>
+
+    <label for="radio2">
+        <div class="cont">
+            <input type="radio" name="plan" id="radio2">
+            <div class="themain"></div>
+        </div>
+    </label>
+    
+    <label for="radio3">
+        <div class="cont">
+            <input type="radio" name="plan" id="radio3">
+            <div class="themain"></div>
+        </div>
+    </label>
+<!-- 
+    .main-container .form-container .form-container-step2 .plan-option .holding-container{
+        position: relative;
+        width: 115px;
+        height: auto;
+    }
+    .main-container .form-container .form-container-step2 .plan-option .holding-container .option-container{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-color: white;
+        border: 2px solid hsl(217, 100%, 97%);
+        padding: 10px;
+        border-radius: 7px;
+    }
+    .main-container .form-container .form-container-step2 .plan-option input:checked[type="radio"] + .option-container{
+        border: 2px solid hsl(243, 100%, 62%);
+    }
+    .main-container .form-container .option-container:hover{
+        border: 2px solid hsl(243, 100%, 62%);
+    } -->
+</body>
+</html>

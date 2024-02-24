@@ -31,6 +31,7 @@ const phone_no_input = document.querySelector("#phone-no-input");
 const input_error_style1 = document.querySelector("#error-message1");
 const input_error_style2 = document.querySelector("#error-message2");
 const input_error_style3 = document.querySelector("#error-message3");
+const input_error_style4 = document.querySelector("#error-message4");
 
 const add_ons_yearly_price = document.querySelectorAll(".add-ons-yearly-price");
 const add_ons_monthly_price = document.querySelectorAll(".add-ons-month-price");
@@ -72,6 +73,8 @@ const add_ons_storage = document.querySelector("#add-ons-storage");
 const add_ons_custom = document.querySelector("#add-ons-custom");
 const total_to_pay = document.querySelector("#total-to-pay");
 const add_ons_checkbox = document.querySelectorAll(".add-ons-checkbox")
+//declare Email regex
+const email_valid = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/
 
 //event listener to change the border of the container when a checkbox is checked
 online_services.addEventListener("change", () => {
@@ -169,6 +172,7 @@ email_input.addEventListener("blur", () => {
 })
 email_input.addEventListener("input", () => {
     if_empty(email_input, input_error_style2);
+    validate_input(email_input.value);
 })
 //phone number input
 phone_no_input.addEventListener("focus", () => {
@@ -388,7 +392,6 @@ function get_price(){
     else{
         total = perform_total_calc(yearly_price_arcade, yearly_price_advanced, yearly_price_pro, total);
         total_to_pay.innerHTML = total/10;
-
     }
 }
 
@@ -410,4 +413,21 @@ function perform_total_calc(price1, price2, price3 , total){
         }
     })
     return total;
+}
+function validate_input(input){
+    if(email_valid.test(input)){
+        email_input.classList.remove("error");
+        email_input.classList.add("focus");
+        input_error_style4.style.display = "none";
+    }
+    else if(input == ""){
+        email_input.classList.remove("focus");
+        email_input.classList.add("error");
+        input_error_style4.style.display = "none";
+    }
+    else{
+        email_input.classList.remove("focus");
+        email_input.classList.add("error");
+        input_error_style4.style.display = "block";
+    }
 }
